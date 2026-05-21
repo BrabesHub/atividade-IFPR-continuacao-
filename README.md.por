@@ -63,3 +63,23 @@ programa
 	}
 }
 11.R=
+programa
+{
+	
+	funcao inicio() //peixe
+	{
+		inteiro  excesso, multa
+		real quilos
+		escreva("quantos quilos tem o peixe que tu pegou ")
+		leia(quilos)
+
+		se(quilos >50 ){ excesso = quilos - 50
+		multa = excesso * 4.50 		
+	     escreva("voce tomara ", multa," reais de multa ,por ter ", excesso," quilos de excesso")
+		
+		
+		}
+		senao{ escreva("voce esta no regulamento ,parabens")}	
+			
+	}
+}
